@@ -1,0 +1,12 @@
+langchain
+langchain-google-genai
+langchain-community
+langchain-qdrant
+langgraph
+langsmith
+streamlit
+qdrant-client
+pyowm
+pypdf
+python-dotenv
+pytest
