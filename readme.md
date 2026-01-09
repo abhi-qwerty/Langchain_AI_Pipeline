@@ -2,7 +2,7 @@
 
 A robust, production-ready AI agent built with **LangGraph**, **Google Gemini 2.5 Flash**, and **Qdrant**. This application demonstrates an "Explicit Router" architecture that intelligently decides whether to fetch real-time weather data or retrieve answers from a PDF document.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-v0.3-green)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
@@ -107,14 +107,14 @@ pip install -r requirements.txt
 ---
 
 ### 3. Add relevent API Keys in .env file
-
+```text
 GOOGLE_API_KEY=your_google_api_key
 OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=your_langsmith_api_key
 LANGCHAIN_PROJECT=gemini-agent-demo
-
+```
 ---
 
 ## 4. ▶️ Run the Agent
