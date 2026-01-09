@@ -128,7 +128,7 @@ streamlit run ui.py
 Once the application starts, Streamlit will display a local URL in the terminal (usually):
 
 ```bash
-streamlit run ui.py
+http://localhost:8501
 ```
 ## 🧠 What You Can Do
 
